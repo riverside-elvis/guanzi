@@ -1,0 +1,19 @@
+---
+pdf-engine: xelatex
+template: pdf-latex.tex
+metadata-file: pdf-meta.yaml
+toc: true
+toc-depth: 2
+variables:
+  urlcolor: Blue
+  linkcolor: Black
+  fontsize: 12pt
+  mainfont: FreeSerif
+  CJKmainfont: Noto Serif CJK TC Light
+  papersize: b6
+  geometry:
+    - top=1cm
+    - bottom=1.2cm
+    - left=1.2cm
+    - right=1.2cm
+...
